@@ -2,8 +2,10 @@ html {
     box-sizing: border-box;
     font-size: 100%;
 }
-
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 body {
     font-family: 'Karla', 'sans-serif';
-    background-color: hsl(212, 73%, 90%);
+    background-color: hsl(211, 53%, 92%);
 }

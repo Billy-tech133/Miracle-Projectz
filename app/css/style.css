@@ -137,8 +137,13 @@ html {
   font-size: 100%;
 }
 
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 body {
   font-family: 'Karla', 'sans-serif';
-  background-color: #d3e4f8;
+  background-color: #e0eaf5;
 }
 /*# sourceMappingURL=style.css.map */
